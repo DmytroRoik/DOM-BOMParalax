@@ -1,8 +1,6 @@
-window.addEventListener('scroll', function (e) {
-	//console.log(document.body.scrollTop);
-  
+window.addEventListener('scroll', function (e) { 
   var $parallax = document.getElementById('parallax');
 
-  var posY = document.documentElement.scrollTop * 0.3;
-  $parallax.style.backgroundPosition = '0px -'+ (posY+250)+'px';
+  var posY = document.documentElement.scrollTop * 0.4;
+  $parallax.style.backgroundPosition = '0px '+ (posY)+'px';
 })
